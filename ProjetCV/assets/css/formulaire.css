@@ -1,11 +1,26 @@
-form {
-border: 2px solid black;
 
-
+#div1 {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  width: 20%;
+  height: 20%;
+  background-color: #92b4f4;
 }
 
-/* form {
-    border: 2px solid black;
-    border border-radius: 6px;
-   
-} */
+section{
+  display: flex;
+  justify-content: center;
+  background-color: #5e7ce2;
+}
+
+@media screen and (max-width: 700px) {
+  
+  #div1 {
+    width: 90%;
+    height: 90%;
+    margin-top: 5%;
+  }
+
+ 
+}

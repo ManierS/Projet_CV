@@ -1,19 +1,11 @@
-/* header {
-  background-color: rgb(163, 163, 187);
-  border: 2px solid black;
-} */
 
-body {
-  width: 100%;
- 
-}
 
 #head {
   display: flex;
   border: 2px solid gray;
   justify-content: space-between;
   align-items: center;
-  background-color: green;
+  background-color: #0077B6;
 }
 
 nav {
@@ -24,19 +16,16 @@ nav {
   justify-content: space-evenly;
   position: sticky;
   top: 0px;
-  background-color: hotpink;
+  background-color: #00B4D8;
 }
 a:link {
   color: black;
 }
 
 footer {
-  background-color: green;
+  background-color: #0077B6;
   margin-top: 5px;
   height: 15%;
+  
 }
 
-/* button{
-  color: red;
-  position:fixed
-} */
